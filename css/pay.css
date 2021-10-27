@@ -1,0 +1,78 @@
+.pay{
+    
+    /* background-color: rgba(165, 42, 42, 0.342); */
+    height: 650px;
+    margin: 0;
+    padding: 5px;
+    /* display: grid;
+    grid-template-rows: 50% 50%; */
+}
+.pay table{
+   margin-left: 50px;
+   margin-top: 50px;
+    width: 1300px;
+    font-size: 30px;
+}
+
+
+ tr th{
+     
+    height: 40px;
+    padding: 10px;
+
+}
+ tr td{
+    text-align: center;
+    height: 40px;
+}
+#img-td{
+    height: 80px;
+    width: 90px;
+}
+.infor-user{
+    margin-left: 50px;
+   margin-top: 50px;
+    width: 700px;
+    height: 350px;
+    padding-top: 30px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px black;
+    border-radius: 10px;
+
+}
+.infor-user label{
+    font-size: 30px;
+    padding-left: 10px;
+    
+
+}
+#name{
+    margin: 10px;
+    width: 600px;
+    height: 30px;
+}
+#sdt{
+    margin: 10px;
+    width: 600px;
+    height: 30px;
+}
+#address{
+    margin: 10px;
+    width: 600px;
+    height: 30px;
+
+}
+.button-pay{
+    display: inline-block;
+    margin-left: 45%;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.button-pay:hover{
+    background-color: red;
+    color: white;
+    
+
+}

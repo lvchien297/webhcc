@@ -1,0 +1,126 @@
+
+.product{
+width: 100%;
+
+}
+.product-menu{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 10px;
+   border: 1px solid black;
+    height: 45px;
+    box-shadow:  0 0 2px 2px brown;
+   
+   
+}
+.product-menu_block{
+    
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    color: black;
+  
+    padding: 8px;
+   
+    
+}
+.product-menu_list{
+    display: none;
+    position: absolute;
+    top:44px;
+    left: 0;
+    width: 100px;
+    padding-left: 0;
+    background-color: rgba(192, 192, 192, 0.63);
+    
+}
+.product-list_item{
+    margin-left: 0;
+    padding: 7px;
+    font-size: 18px;
+    
+}
+.product-list_item:hover{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+.product-menu_block:hover .product-menu_list{
+    display: block;
+    
+}
+.product-list_item:hover{
+    color: red;
+}
+.product-content{
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+    
+
+}
+.product1-content{
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+    
+
+}
+.product-content_block{
+    
+    padding: 10px;
+    
+    
+    /* background-color: sienna; */
+    width: 200px;
+    height: 350px;
+    
+}
+.product-block_img{
+    width: 173px;
+    height: 173px;
+    margin-left: 6%;
+
+}
+.product-block_content{
+    font-size: 14px;
+    margin-top: 10px;
+    height: 80px;
+    
+}
+.product-block_price{
+    margin-top: 10px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.product-buy{
+    background-color: blue;
+    color: white;
+    margin-left: 32%;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 5px;
+    display: none;
+}
+.product-content_block:hover{
+    box-shadow: 0 0 2px 2px black;
+}
+.product-content_block:hover .product-buy{
+    display: inline-block;
+}
+.product-content_block:hover .product-block_img{
+    margin-top: -5px;
+}

@@ -1,0 +1,47 @@
+.log-in{
+ background-color: rgba(153, 153, 153, 0.253);
+    width: 100%;
+    height: 400px;
+    padding-top: 70px;
+
+}
+.title-login{
+    margin-left: 20%;
+}
+#form-login{
+    margin-top: 10px;
+    
+    background-color: white;
+    margin-right: 100px;
+    width: 700px;
+    height: 300px;
+    margin-left: 20%;
+    
+}
+.user-name{
+    border: rgba(0, 0, 0, 0.651) solid 1px;
+    margin-left: 120px;
+    height: 30px;
+    margin-top: 60px;
+    width: 400px;
+    
+}
+.user-password{
+    border: rgba(0, 0, 0, 0.521) solid 1px;
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 30px;
+    width: 400px;
+   
+    
+
+}
+.user-button{
+    margin-left: 280px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    padding: 10px;
+
+}

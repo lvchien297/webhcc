@@ -1,0 +1,54 @@
+.footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: #433d7b;
+    margin-top: 20px;
+
+}
+.footer-left{
+
+padding-top: 30px;
+
+
+}
+.footer-left-title{
+    text-align: center;
+
+}
+.footer-left_icon{
+    height: 50px;
+    width: 100px;
+    
+    margin-top: 20px;
+    margin-left: 40%;
+
+}
+.footer-icon{
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+#footer-fb{
+    font-size: 30px;
+    
+}
+#footer-insta{
+    font-size: 30px;
+}
+
+
+
+
+.footer-right{
+    padding-top: 30px;
+
+}
+.footer-right_title{
+    text-align: center;
+}
+.footer-right_title span{
+    font-size: 30px;
+}

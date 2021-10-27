@@ -1,0 +1,59 @@
+.manager{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    border:  1px solid black;
+    padding: 10px;
+    padding-top: 40px;
+    padding-left: 100px;
+    box-shadow:  0 0 2px 2px black;
+    margin-bottom: 30px;
+}
+#form-manager {
+   
+}
+.form-manager_name{
+    height: 30px;
+    width: 400px;
+    margin-top: 50px;
+    
+}
+.form-manager_password{
+    height: 30px;
+    width: 400px;
+    margin-top: 20px;
+  
+}
+.form-manager_img{
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+}
+.form-manager_file{
+    margin-top: 20px;
+}
+.form-manager_phone{
+    height: 30px;
+    width: 400px;
+    margin-top: 20px;
+}
+.form-manager_date{
+    height: 30px;
+    width: 400px;
+    margin-top: 20px;
+}
+.form-manager_gender{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+
+}
+.form-manager_button{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    background-color: orange;
+}
